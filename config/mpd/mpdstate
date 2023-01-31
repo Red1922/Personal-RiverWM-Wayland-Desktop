@@ -1,0 +1,77 @@
+sw_volume: 100
+audio_device_state:1:my_fifo
+audio_device_state:1:PipeWire Sound Server
+state: pause
+current: 0
+time: 7.049000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:0 A.D. Full Soundtrack.m4a
+1:0AD Music/Ammon-Ra.mp3
+2:0AD Music/An_old_Warhorse_goes_to_Pasture.mp3
+3:0AD Music/Calm_Before_the_Storm.mp3
+4:0AD Music/Celtic_Pride.mp3
+5:0AD Music/Celtica.mp3
+6:0AD Music/Cisalpine_Gaul.mp3
+7:0AD Music/Dried_Tears.mp3
+8:0AD Music/Eastern_Dreams.mp3
+9:Palestine/Zalzil Amna Israel (Lyric) [p_vOhTxrg6s].flac
+10:Palestine/_باسم الجبهة الشعبية - In the Name of the Popular Front.mp3
+11:Palestine/_طلت الراية الحمرا - The Red Banner is Raised.mp3
+12:Soviet Union/chekist.mp3
+13:India/bastar Maoist cnm song_revolution song by communist party of India (Maoist) [HIriNPQ41UQ].mp3
+14:India/new democratic revolution in bastar India. [FXWOzTrtAfg].mp3
+15:India/Suraj Utha Kohra Chhuta (Hindi) ~ Communist Songs of India (গণ-সংগীত _ People's Song) [nCY_E5iMQgg].mp3
+16:India/CNM SONG naxali naxasli gana video ⧸ नक्सली गाना विडियो माओवादी विडियो #lalsalam #naxali [F_KxzFTeLEk].flac
+17:India/CNM SONG naxali naxasli gana video ⧸ नक्सली गाना विडियो माओवादी विडियो #lalsalam #naxali #नक्सली [_xRaVCM3Tmc].flac
+18:India/Naan Anaiyittaal  (If I order) - MK Stalin Mass Entry Whatsapp song [Zbj4QbFjggQ].mp3
+19:Old Classics/Johann Strauss II - The Blue Danube Waltz.m4a
+20:Kashmir/＂Labbaik Labbaik Salay Al'ah＂ - Kashmiri Song [QEgdSfDptFM].flac
+21:Nepal/Arun Tarera [Db4XkOCAl6o].flac
+22:Nepal/Bandukharu niskam hunchhan janata biujhi uthepachi [tT486c8ALQE].flac
+23:Nepal/Hamro Muktiko Yatra Jari Chha Ajhai [kYNmdEVHDDA].mp3
+24:Nepal/Jana Akata Aviyan [-rfea8bE-N0].flac
+25:Nepal/Khai Hamra Lalsena Khai Hamra Hatiyar - खै हाम्रा लाल सेना [8EYuIt4BzC0].flac
+26:Nepal/krantikari song [E5EyhyjaMJs].flac
+27:Nepal/Krantikari song [MylK4kjB3Oc].flac
+28:Nepal/lal juhpadi ka manche haru [2rkgv0mqcZM].flac
+29:Nepal/new maobadi krantikari song ,kasle bhanchh safal hudaina｜｜Maila lama [ODSfyJy8CAo].flac
+30:Nepal/sansari bhari kaha jhuke khai [_5xqqcCuncU].flac
+31:Songs from the Shining Trenches of Combat/A las masas [szE5xgezZUU].flac
+32:Songs from the Shining Trenches of Combat/Al Presidente Gonzalo [5QzbUmNCf4w].flac
+33:Songs from the Shining Trenches of Combat/Bandera roja [p59uMh6Napg].flac
+34:Songs from the Shining Trenches of Combat/Brilla, brilla el Nuevo Poder [oP5UHASNWf4].flac
+35:Songs from the Shining Trenches of Combat/Canto al Neuvo Poder [NfUQi5wcUiE].flac
+36:Songs from the Shining Trenches of Combat/Canto de batalla [kg5hOGD3SPc].flac
+37:Songs from the Shining Trenches of Combat/Canto de mar armado [Ju1f2CmFOqI].flac
+38:Songs from the Shining Trenches of Combat/Científica luz [e02R4SakoyU].flac
+39:Songs from the Shining Trenches of Combat/El guerrillero [lk9wQUf5XtY].flac
+40:Songs from the Shining Trenches of Combat/El Partido [iQxuM_47HV0].flac
+41:Songs from the Shining Trenches of Combat/Gloria a los héroes [z-2axbNga_0].flac
+42:Songs from the Shining Trenches of Combat/Himno a la Camarada Norah [WS0yRUy9Vus].flac
+43:Songs from the Shining Trenches of Combat/La International [2HbA7kZzyfo].flac
+44:Songs from the Shining Trenches of Combat/Labor de titanes [kSgkdOTGTGI].flac
+45:Songs from the Shining Trenches of Combat/Los rojos guerreros [e3XukF7PNfQ].flac
+46:Songs from the Shining Trenches of Combat/Marcha triunfal [jZj2SrHjaME].flac
+47:Songs from the Shining Trenches of Combat/Por el este nace el sol [dEQ5ne9QLxw].flac
+48:Songs from the Shining Trenches of Combat/Por el gran camino [nhZfQ6xzf2k].flac
+49:Songs from the Shining Trenches of Combat/Rumbo al Comunismo [gOgBeqoBZhc].flac
+50:Songs from the Shining Trenches of Combat/Salvo el Poder [1saShkPOiTg].flac
+51:Songs from the Shining Trenches of Combat/Sembrando el fuego [irHFzPO1qhA].flac
+52:Songs from the Shining Trenches of Combat/Soldados rojos [GWaNJzrzxjY].flac
+53:Songs from the Shining Trenches of Combat/Torrente rojo [_ydmlRxW2jI].flac
+54:China/Flower of Freedom - Hymn to Tiananmen Square Protests.mp3
+55:China/红太阳 - 毛泽东颂歌新节奏联唱珍藏版(The Red Sun)(CD1) [V_hw2h_4TBg].opus
+56:JapaneseOther/RiveR - Solo [72QAAOaYW2M].flac
+57:Slavic Neo-Hardbass/Narkotik Kal [ewCLsbNczjo].flac
+58:Slavic Neo-Hardbass/Gopnik McBlyat - Szpion Detector [7qC2vAqTE2E].flac
+59:Slavic Neo-Hardbass/Gopnik McBlyat - Snakes in Tracksuits [LEjqfOKiGWE].flac
+60:Slavic Neo-Hardbass/Gopnik McBlyat - Murka [vwHXf9Hp5L4].flac
+61:Slavic Neo-Hardbass/Gopnik McBlyat - Cheeki Breeki Revolt [qQvwxmsRM64].flac
+playlist_end

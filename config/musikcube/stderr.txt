@@ -1,0 +1,13 @@
+PulseOut::PulseOut() called
+AlsaOut::AlsaOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+[2023-01-30 20:33:55] [info] asio async_connect error: system:111 (Connection refused)
+[2023-01-30 20:33:55] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
+[2023-01-30 20:33:55] [error] handle_connect error: Underlying Transport Error
+[2023-01-30 21:02:27] [error] handle_read_frame error: websocketpp.transport:7 (End of File)

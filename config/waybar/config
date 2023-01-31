@@ -1,0 +1,134 @@
+{
+    "layer": "bottom", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 10, // Waybar height (to be removed for auto height)
+    "width": 1900, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["river/window"],
+    "modules-center": ["river/tags"],
+    "modules-right": [ "network#updown", "network#net", "clock#time", "clock#date", "clock#day", "tray"],
+    
+
+    //Modules configuration
+
+
+
+
+
+  "river/tags": {
+    "num-tags": 9,
+    //"tag-labels":[
+    //  "А₁ ", 
+    //  "В₂ ", 
+    //  "Г₃ ",
+    //  "Д₄ ",
+    //  "Є₅ ",
+    //  "Ꙃ₆ ",
+    //  "З₇ ",
+    //  "И₈ ",
+    //  "Ѳ₉ ",
+		//],
+    "tag-labels":[
+      "۱", 
+      "۲", 
+      "۳",
+      "۴",
+      "۵",
+      "۶",
+      "۷",
+      "۸",
+      "۹",
+		],
+		"disable-click": false
+  },
+
+
+
+
+
+  "river/window": {
+    "format": " {} ",
+    "max-length": 98,
+    "tooltip": true
+  },
+
+
+
+
+
+  "river/mode": {
+    "format": "mode: {}"
+  },
+
+
+
+
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 2
+  },
+
+
+
+
+
+    //"clock": {
+    //    "interval": 1,
+    //    "timezone": "Asia/Kolkata",
+    //    "format": " {: %H:%M:%S} ",
+    //    "format-alt": " {: %H:%M:%S -  %d/%m/%Y - %A} ",
+    //    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    //},
+
+
+
+    "clock#time": {
+        "interval": 1,
+        "timezone": "Asia/Kolkata",
+        "format": " {: %H:%M:%S} "
+    },
+
+
+
+    "clock#date": {
+        "interval": 1,
+        "timezone": "Asia/Kolkata",
+        "format": " {: %d/%m/%Y} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+
+
+    "clock#day": {
+        "interval": 1,
+        "timezone": "Asia/Kolkata",
+        "format": " {:%A} "
+    },
+
+
+
+
+
+    "network#net": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "   {essid} [{frequency}Hz] [{signalStrength}%] ",
+        "format-ethernet": "   {ipaddr}/{cidr} ",
+        "tooltip-format": "   {ifname} via {gwaddr} ",
+        "format-linked": "   {ifname} (No IP) ",
+        //"format-disconnected": " ⚠  Disconnected ",
+        "format-disconnected": "   Disconnected ",
+        "format-alt": " {ifname}: {ipaddr}/{cidr} "
+    },
+
+
+
+    "network#updown": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "interval": 1,
+        "format-wifi": "  {bandwidthUpBits}   {bandwidthDownBits} ",
+        "format-disconnected": "  ---   --- "
+    }
+}
+

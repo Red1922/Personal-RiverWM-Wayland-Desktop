@@ -1,0 +1,393 @@
+* { border: none;
+  border-radius: 10px;
+  min-height: 10px;
+  /* `otf-font-awesome` is required to be installed for icons */
+  /*font-family: Liberation Mono, FiraCode Nerd Font, Helvetica, Arial, sans-serif;*/
+  font-family: Iosevka Nerd Font;
+  font-size: 13px;
+}
+
+window#waybar {
+  /*background-color: rgba(00, 00, 24, 1.0);*/
+  /*background-color: #11111b;*/
+  background-color: transparent;
+  /*border-bottom: 0px solid rgba(100, 114, 125, 0.5);*/
+  color: #a0a0ff;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#window { 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: #11111b;
+  border-radius: 10px;
+  border-top: 2px solid #a0a0ff;
+}
+
+#tags {
+  background-color: #11111b;
+	margin-top: 10px;
+  margin-bottom: 0px;
+	margin-left: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+	border-radius: 10px;
+  border-top: 2px solid #a0a0ff;
+  transition-duration: 1s;
+  /*font-size: 7px;*/
+}
+
+#tags button {
+  color: #313244;
+  padding-left: 0px;
+  padding-right: 0px;
+	/*font-size: 7px;*/
+}
+
+#tags button.occupied {
+	color: #a0a0ff;
+	/*font-size: 7px;*/
+}
+
+#tags button.focused {
+  color: #a6e3a1;
+  border-top: 0px solid #a0a0ff;
+  border-bottom: 0px solid #a0a0ff;
+}
+
+#tags button:hover {
+  transition:none;
+  color: #a0a0ff;
+  background: #11111b;
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+#tags button.focused:hover {
+  color: #313244;
+  background: #11111b;
+}
+
+#tags button.occupied:hover {
+	color: #313244;
+	/*font-size: 7px;*/
+}
+
+#mode {
+  background-color: #64727D;
+  border-bottom: 0px solid #cdd6f4;
+}
+
+/*Top Bar*/
+
+#network {
+  background-color: #11111b;
+  border-top: 2px solid #a0a0ff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#clock {
+  background-color: #11111b;
+  border-top: 2px solid #a0a0ff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#tray {
+  background-color: #11111b;
+  border-top: 2px solid #a0a0ff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/*Bottom Bar*/
+
+#battery {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#cpu {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#memory {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#disk {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#temperature {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#backlight {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#pulseaudio {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#custom-media {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#mode {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#idle_inhibitor {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#mpd {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #cdd6f4;
+}
+
+#mpris {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #cdd6f4;
+}
+
+#custom-media {
+  background-color: #11111b;
+  border-bottom: 2px solid #a0a0ff;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #cdd6f4;
+}
+
+#window,
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #tags {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #tags {
+    margin-right: 0;
+}
+
+#clock {
+    color: #f9e2af;
+}
+
+#battery {
+    color: #cdd6f4;
+}
+
+#battery.charging, #battery.plugged, #battery.full {
+    color: #26A65B;
+}
+
+@keyframes blink {
+    to {
+        color: #cdd6f4;
+    }
+}
+
+#battery.warning:not(.charging) {
+    color: #f53c3c;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#battery.critical:not(.charging) {
+    color: #f53c3c;
+    animation-name: blink;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    color: #2ecc71;
+}
+
+#memory {
+    color: #cba6f7;
+}
+
+#disk {
+    color: #b4befe;
+}
+
+#backlight {
+    color: #a6e3a1;
+}
+
+#network {
+    color: #94e2d5;
+}
+
+#network.disconnected {
+    color: #f38ba8;
+}
+
+#pulseaudio {
+    color: #fab387;
+}
+
+#pulseaudio.muted {
+    color: #f38ba8;
+}
+
+#custom-media {
+    color: #66cc99;
+    min-width: 100px;
+}
+
+#custom-media.custom-spotify {
+    color: #66cc99;
+}
+
+#custom-media.custom-vlc {
+    color: #fab387;
+}
+
+#temperature {
+    color: #fab387;
+}
+
+#temperature.critical {
+    color: #f38ba8;
+}
+
+#tray {
+    color: #89b4fa;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    color: #f38ba8;
+}
+
+#idle_inhibitor {
+    color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    color: #ecf0f1;
+}
+
+#mpd {
+    color: #a6e3a1;
+}
+
+#mpd.disconnected {
+    color: #f38ba8;
+}
+
+#mpd.stopped {
+    color: #51a37a;
+}
+
+#mpd.paused {
+    color: #51a37a;
+}
+
+#mpris {
+    color: #a6e3a1;
+}
+
+#mpris.stopped {
+    color: #90b1b1;
+}
+
+#mpris.paused {
+    color: #51a37a;
+}
+
+#language {
+    color: #00b093;
+    padding: 0 5px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state {
+    color: #97e1ad;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state > label {
+    padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+    background: rgba(0, 0, 0, 0.2);
+}
